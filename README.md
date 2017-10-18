@@ -16,5 +16,5 @@ cython/以下に、cythonで書かれた以下の2つのコードがあります
 ```
 python setup.py build_ext --inplace
 ```
-を実行することで、.pyx→.cへの変換、.cのコンパイルまで実行します(事前に、CythonのインストールとCコンパイラを準備してください)。  
+を実行することで、.pyx→.cへの変換、.cのコンパイルまで実行します(事前に、Cythonのインストール`pip install cython`とCコンパイラを準備してください)。  
 最後に、cy_gyro_test.pyを実行して、2つのCythonで書かれたコードの時間が測定可能です。
