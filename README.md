@@ -7,8 +7,8 @@ srcディレクトリ以下に、
 - pure_python/  
 ディレクトリがあります。各ディレクトリ以下の説明は以下のとおりです。  
 
-fortran/以下は、比較用にFortran90で書かれたコードがあります。ご自分の環境でコンパイルして時間を測定してください。  
-pure_python/以下は、純粋なPythonで書かれたコードがあります。Python3で実行して時間を測定してください。  
+fortran/以下は、比較用にFortran90で書かれたコード`gyro_motion.f90`があります。ご自分の環境でコンパイルして時間を測定してください。  
+pure_python/以下は、純粋なPythonで書かれたコード`gyro_motion_pure_py.py`があります。Python3で実行して時間を測定してください。  
 cython/以下に、cythonで書かれた以下の2つのコードがあります。  
 - gyro_motion_cython_type.pyx (変数の型宣言のみのコード) 
 - gyro_motion_cython_func.pyx (関数の引数・戻り値まで型宣言するコード)
